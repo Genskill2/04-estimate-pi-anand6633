@@ -23,4 +23,27 @@ int main(void) {
     }
   }
 }
+monte carlo
+A GUEST
+JUN 3RD, 2021
+10
+NEVER
+Not a member of Pastebin yet? Sign Up, it unlocks many cool features!
+0.18 KB
+  
+float mc_pi(int n) 
+{float c=0.0;
+float ans; 
+ 
+for(int i=1;i<=n;i++) 
+{ 
+float x= frandom(); 
+float y= frandom(); 
+if(sqrt(x*x+y*y)<1) 
+c++; 
+} 
+ 
+ans = 4*c/n;
+return ans; 
+}
 
